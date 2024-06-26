@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Search Wikipedia" time="22.364" tests="1" failures="0" errors="0">
+   <testsuite name="Search Wikipedia" tests="1" failures="0" errors="0" time="22.364" skipped="0" timestamp="26-06-2024T10:04:35" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/Wikipedia/Search Wikipedia">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240626_100430\\Wikipedia\\Search Wikipedia\\20240626_100430"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240626_100430\\Wikipedia\\Search Wikipedia\\20240626_100430\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-capture search bob marley.png"/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.4.208"/>
+         <property name="sessionId" value="5f31ec32fe75a96341f3488c7890bc8c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Wikipedia/Wikipedia search" time="22.041" classname="Test Cases/Wikipedia/Wikipedia search" status="PASSED">
+         <system-out><![CDATA[26-06-2024T10:04:35 - [TEST_CASE][PASSED] - Test Cases/Wikipedia/Wikipedia search: Test Cases/Wikipedia/Wikipedia search
+
+26-06-2024T10:04:36 - [TEST_STEP][PASSED] - openBrowser("https://www.wikipedia.org/"): Browser is opened with url: 'https://www.wikipedia.org/'
+
+26-06-2024T10:04:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-06-2024T10:04:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-06-2024T10:04:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.wikipedia.org/'
+
+26-06-2024T10:04:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-06-2024T10:04:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-06-2024T10:04:50 - [TEST_STEP][PASSED] - setText(findTestObject("Wikipedia/search box wikipedia"), "bob marley"): Text 'bob marley' is set on object 'Object Repository/Wikipedia/search box wikipedia'
+
+26-06-2024T10:04:51 - [MESSAGE][PASSED] - Text 'bob marley' is set on object 'Object Repository/Wikipedia/search box wikipedia'
+
+26-06-2024T10:04:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-06-2024T10:04:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-06-2024T10:04:53 - [TEST_STEP][PASSED] - click(findTestObject("Wikipedia/button search wikipedia")): Object: 'Object Repository/Wikipedia/button search wikipedia' is clicked on
+
+26-06-2024T10:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Wikipedia/button search wikipedia' is clicked on
+
+26-06-2024T10:04:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-06-2024T10:04:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-06-2024T10:04:57 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("capture search bob marley"): Taking screenshot successfully
+
+26-06-2024T10:04:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+26-06-2024T10:04:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-capture search bob marley.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-06-2024T10:04:35 - [TEST_SUITE][PASSED] - Search Wikipedia: Test Cases/Wikipedia/Wikipedia search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="collection mascot" time="266.918" tests="11" failures="0" errors="0">
+   <testsuite name="login berhasil" tests="1" failures="0" errors="0" time="22.109" skipped="0" timestamp="24-06-2024T09:59:34" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/login berhasil">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\login berhasil\\20240624_095901"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\login berhasil\\20240624_095901\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.185"/>
+         <property name="sessionId" value="c796fc89a841de68d7ac2b64338e58cb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login mascot/login" time="21.841" classname="Test Cases/login mascot/login" status="PASSED">
+         <system-out><![CDATA[24-06-2024T09:59:34 - [TEST_CASE][PASSED] - Test Cases/login mascot/login: Test Cases/login mascot/login
+
+24-06-2024T09:59:35 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T09:59:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T09:59:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T09:59:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T09:59:54 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T09:59:55 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T09:59:55 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T09:59:56 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T09:59:56 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T09:59:56 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-06-2024T09:59:34 - [TEST_SUITE][PASSED] - login berhasil: Test Cases/login mascot/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="master area 1" tests="2" failures="0" errors="0" time="29.918" skipped="0" timestamp="24-06-2024T10:00:14" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/master area 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\master area 1\\20240624_095904"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\master area 1\\20240624_095904\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.185"/>
+         <property name="sessionId" value="44e970d3293c1b91a14544231499e770"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login mascot/login" time="9.36" classname="Test Cases/login mascot/login" status="PASSED">
+         <system-out><![CDATA[24-06-2024T10:00:14 - [TEST_CASE][PASSED] - Test Cases/login mascot/login: Test Cases/login mascot/login
+
+24-06-2024T10:00:14 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:00:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T10:00:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T10:00:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:00:22 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:00:22 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:00:22 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:00:23 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:00:23 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Management - Master Area 1/Open Master Area 1" time="20.292" classname="Test Cases/User Management - Master Area 1/Open Master Area 1" status="PASSED">
+         <system-out><![CDATA[24-06-2024T10:00:23 - [TEST_CASE][PASSED] - Test Cases/User Management - Master Area 1/Open Master Area 1: Test Cases/User Management - Master Area 1/Open Master Area 1
+
+24-06-2024T10:00:23 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:00:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-06-2024T10:00:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T10:00:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T10:00:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:00:31 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:00:31 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:00:32 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:00:32 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:00:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+24-06-2024T10:00:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+24-06-2024T10:00:35 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master Area 1/Open Master Area 1")): Object: 'Object Repository/User Management - Master Area 1/Open Master Area 1' is clicked on
+
+24-06-2024T10:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master Area 1/Open Master Area 1' is clicked on
+
+24-06-2024T10:00:36 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+24-06-2024T10:00:44 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-06-2024T10:00:14 - [TEST_SUITE][PASSED] - master area 1: Test Cases/User Management - Master Area 1/Open Master Area 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="master area 2" tests="2" failures="0" errors="0" time="50.022" skipped="0" timestamp="24-06-2024T10:01:01" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/master area 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\master area 2\\20240624_095906"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\master area 2\\20240624_095906\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.185"/>
+         <property name="sessionId" value="2242e1641ed7516437583b6f740eeea1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login mascot/login" time="17.461" classname="Test Cases/login mascot/login" status="PASSED">
+         <system-out><![CDATA[24-06-2024T10:01:01 - [TEST_CASE][PASSED] - Test Cases/login mascot/login: Test Cases/login mascot/login
+
+24-06-2024T10:01:02 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:01:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T10:01:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T10:01:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:01:16 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:01:18 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:01:18 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:01:18 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:01:18 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Management - Master Area 2/Open Master Area 2" time="32.335" classname="Test Cases/User Management - Master Area 2/Open Master Area 2" status="PASSED">
+         <system-out><![CDATA[24-06-2024T10:01:19 - [TEST_CASE][PASSED] - Test Cases/User Management - Master Area 2/Open Master Area 2: Test Cases/User Management - Master Area 2/Open Master Area 2
+
+24-06-2024T10:01:19 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:01:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-06-2024T10:01:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T10:01:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T10:01:38 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:01:38 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:01:38 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:01:38 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:01:39 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:01:39 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:01:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+24-06-2024T10:01:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+24-06-2024T10:01:42 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master Area 2/Open Master Area 2")): Object: 'Object Repository/User Management - Master Area 2/Open Master Area 2' is clicked on
+
+24-06-2024T10:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master Area 2/Open Master Area 2' is clicked on
+
+24-06-2024T10:01:43 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+24-06-2024T10:01:51 - [MESSAGE][PASSED] - Delayed 8 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-06-2024T10:01:01 - [TEST_SUITE][PASSED] - master area 2: Test Cases/User Management - Master Area 2/Open Master Area 2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="master NFC" tests="2" failures="0" errors="0" time="24.403" skipped="0" timestamp="24-06-2024T10:02:07" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/master NFC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\master NFC\\20240624_095908"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\master NFC\\20240624_095908\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.185"/>
+         <property name="sessionId" value="cd7a5db720f728d15f90f627ccc5dfb1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login mascot/login" time="9.9" classname="Test Cases/login mascot/login" status="PASSED">
+         <system-out><![CDATA[24-06-2024T10:02:08 - [TEST_CASE][PASSED] - Test Cases/login mascot/login: Test Cases/login mascot/login
+
+24-06-2024T10:02:08 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:02:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T10:02:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T10:02:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:02:16 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:02:16 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:02:16 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:02:17 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:02:17 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Management - Master NFC/Open Master NFC" time="14.304" classname="Test Cases/User Management - Master NFC/Open Master NFC" status="PASSED">
+         <system-out><![CDATA[24-06-2024T10:02:17 - [TEST_CASE][PASSED] - Test Cases/User Management - Master NFC/Open Master NFC: Test Cases/User Management - Master NFC/Open Master NFC
+
+24-06-2024T10:02:18 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:02:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-06-2024T10:02:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T10:02:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T10:02:24 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:02:24 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:02:24 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:02:24 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:02:25 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:02:25 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:02:25 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:02:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+24-06-2024T10:02:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+24-06-2024T10:02:28 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master NFC/Open Master NFC")): Object: 'Object Repository/User Management - Master NFC/Open Master NFC' is clicked on
+
+24-06-2024T10:02:29 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master NFC/Open Master NFC' is clicked on
+
+24-06-2024T10:02:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+24-06-2024T10:02:32 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-06-2024T10:02:07 - [TEST_SUITE][PASSED] - master NFC: Test Cases/User Management - Master NFC/Open Master NFC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="master Store" tests="2" failures="0" errors="0" time="23.567" skipped="0" timestamp="24-06-2024T10:02:45" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/master Store">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\master Store\\20240624_095910"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\master Store\\20240624_095910\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.185"/>
+         <property name="sessionId" value="a689c5d34a0c4de0ee74baba31e8916f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login mascot/login" time="11.069" classname="Test Cases/login mascot/login" status="PASSED">
+         <system-out><![CDATA[24-06-2024T10:02:46 - [TEST_CASE][PASSED] - Test Cases/login mascot/login: Test Cases/login mascot/login
+
+24-06-2024T10:02:46 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:02:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T10:02:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T10:02:55 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:02:55 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:02:56 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:02:56 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:02:56 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:02:56 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Management - Master Store/Open Master Store" time="12.299" classname="Test Cases/User Management - Master Store/Open Master Store" status="PASSED">
+         <system-out><![CDATA[24-06-2024T10:02:57 - [TEST_CASE][PASSED] - Test Cases/User Management - Master Store/Open Master Store: Test Cases/User Management - Master Store/Open Master Store
+
+24-06-2024T10:02:57 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:02:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-06-2024T10:02:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T10:02:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T10:03:01 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:03:01 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:03:02 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:03:03 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:03:03 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:03:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+24-06-2024T10:03:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T10:03:04 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master Store/Master Store")): Object: 'Object Repository/User Management - Master Store/Master Store' is clicked on
+
+24-06-2024T10:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master Store/Master Store' is clicked on
+
+24-06-2024T10:03:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+24-06-2024T10:03:09 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-06-2024T10:02:45 - [TEST_SUITE][PASSED] - master Store: Test Cases/User Management - Master Store/Open Master Store]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="master user" tests="2" failures="0" errors="0" time="26.028" skipped="0" timestamp="24-06-2024T10:03:24" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/master user">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\master user\\20240624_095912"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_095856\\mascot\\master user\\20240624_095912\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.185"/>
+         <property name="sessionId" value="1f744f511e10aa98cc363df57eda0ec7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login mascot/login" time="11.058" classname="Test Cases/login mascot/login" status="PASSED">
+         <system-out><![CDATA[24-06-2024T10:03:24 - [TEST_CASE][PASSED] - Test Cases/login mascot/login: Test Cases/login mascot/login
+
+24-06-2024T10:03:24 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:03:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T10:03:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T10:03:33 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:03:33 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:03:34 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:03:35 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:03:35 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User Management - Master User/Open Master User" time="14.686" classname="Test Cases/User Management - Master User/Open Master User" status="PASSED">
+         <system-out><![CDATA[24-06-2024T10:03:35 - [TEST_CASE][PASSED] - Test Cases/User Management - Master User/Open Master User: Test Cases/User Management - Master User/Open Master User
+
+24-06-2024T10:03:35 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:03:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+24-06-2024T10:03:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T10:03:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T10:03:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T10:03:43 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:03:45 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T10:03:45 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:03:45 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T10:03:45 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T10:03:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+24-06-2024T10:03:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+24-06-2024T10:03:47 - [TEST_STEP][PASSED] - click(findTestObject("User Management - Master User/Master User")): Object: 'Object Repository/User Management - Master User/Master User' is clicked on
+
+24-06-2024T10:03:48 - [MESSAGE][PASSED] - Object: 'Object Repository/User Management - Master User/Master User' is clicked on
+
+24-06-2024T10:03:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+24-06-2024T10:03:50 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-06-2024T10:03:24 - [TEST_SUITE][PASSED] - master user: Test Cases/User Management - Master User/Open Master User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

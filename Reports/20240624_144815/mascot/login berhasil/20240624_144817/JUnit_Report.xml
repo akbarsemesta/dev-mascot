@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login berhasil" time="15.516" tests="2" failures="0" errors="0">
+   <testsuite name="login berhasil" tests="2" failures="0" errors="0" time="15.516" skipped="0" timestamp="24-06-2024T14:48:34" hostname="0789 - DESKTOP-51HVGAE" id="Test Suites/mascot/login berhasil">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_144815\\mascot\\login berhasil\\20240624_144817"/>
+         <property name="logFiles" value="C:\\Users\\0789\\git\\dev-mascot\\Reports\\20240624_144815\\mascot\\login berhasil\\20240624_144817\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0789 - DESKTOP-51HVGAE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 126.0.0.0"/>
+         <property name="hostAddress" value="192.168.10.185"/>
+         <property name="sessionId" value="9243f6636f02fd7f033852886d026e8a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login mascot/login" time="11.052" classname="Test Cases/login mascot/login" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:48:35 - [TEST_CASE][PASSED] - Test Cases/login mascot/login: Test Cases/login mascot/login
+
+24-06-2024T14:48:35 - [TEST_STEP][PASSED] - openBrowser("http://206.189.158.91:8080/sparepart-factory-cms/login.zul"): Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T14:48:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-06-2024T14:48:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-06-2024T14:48:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://206.189.158.91:8080/sparepart-factory-cms/login.zul'
+
+24-06-2024T14:48:43 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/1. input username"), "sadm001"): Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T14:48:44 - [MESSAGE][PASSED] - Text 'sadm001' is set on object 'Object Repository/login mascot/1. input username'
+
+24-06-2024T14:48:44 - [TEST_STEP][PASSED] - setText(findTestObject("login mascot/2. input password"), "Abc123!"): Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T14:48:45 - [MESSAGE][PASSED] - Text 'Abc123!' is set on object 'Object Repository/login mascot/2. input password'
+
+24-06-2024T14:48:45 - [TEST_STEP][PASSED] - click(findTestObject("login mascot/3. klik button login")): Object: 'Object Repository/login mascot/3. klik button login' is clicked on
+
+24-06-2024T14:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/login mascot/3. klik button login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard CMS/list dashboard" time="3.994" classname="Test Cases/Dashboard CMS/list dashboard" status="PASSED">
+         <system-out><![CDATA[24-06-2024T14:48:46 - [TEST_CASE][PASSED] - Test Cases/Dashboard CMS/list dashboard: Test Cases/Dashboard CMS/list dashboard
+
+24-06-2024T14:48:46 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard CMS/list dashboard")): Object: 'Object Repository/Dashboard CMS/list dashboard' is clicked on
+
+24-06-2024T14:48:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard CMS/list dashboard' is clicked on
+
+24-06-2024T14:48:49 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard CMS/list dashboard")): Object: 'Object Repository/Dashboard CMS/list dashboard' is clicked on
+
+24-06-2024T14:48:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard CMS/list dashboard' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-06-2024T14:48:34 - [TEST_SUITE][PASSED] - login berhasil: Test Cases/Dashboard CMS/list dashboard]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
